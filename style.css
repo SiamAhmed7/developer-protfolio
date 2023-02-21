@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.h1-2 {
+    color: rgb(245, 163, 10);
+}
+
+.p-1 {
+    text-align: justify;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 4%;
+}
+
+.half-width img {
+    width: 90%;
+}

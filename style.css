@@ -24,7 +24,7 @@ h1 {
     font-size: larger;
 }
 
-section {
+.flexibale {
     display: flex;
     margin-bottom: 100px;
 }
@@ -45,7 +45,7 @@ section {
     background-image: linear-gradient(#EC9F05, #FF4E00);
     padding: 10px 19px 10px 19px;
     border-radius: 5px;
-    color: black;
+    color: whitesmoke;
     font-weight: 700;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -56,12 +56,24 @@ section {
     background-repeat: no-repeat;
 }
 
+.sec-2 {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.sec-3 {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .facebook {
     text-decoration: none;
     background-image: linear-gradient(#da1dba, #ba08f0);
     padding: 10px 19px 10px 19px;
     border-radius: 5px;
-    color: black;
+    color: white;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
@@ -79,12 +91,6 @@ section {
     font-size: 25px;
 }
 
-.sec-2 {
-    background-image: url(image/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
 .half-width-2 {
     width: 50%;
     padding-right: 6%;
@@ -92,4 +98,45 @@ section {
 
 .half-width-2 img {
     width: 90%;
+}
+
+.pro-biginer {
+    color: #9616bd;
+}
+
+.exp {
+    padding-left: 10px;
+    font-size: 50px;
+    color: #a1128a;
+}
+
+.exp-item {
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 1%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-left: 7px solid #650ff0;
+}
+
+.exp-item-2 {
+    width: 50%;
+    padding-right: 3%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 1%;
+    margin-right: 5%;
+    border-left: 7px solid #da1dba;
+    border-radius: 10px;
+
+}
+
+.webdeveloper {
+    color: #f08f11;
+}
+
+footer p {
+    text-align: center;
 }
